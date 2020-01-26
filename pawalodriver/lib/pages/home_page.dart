@@ -10,7 +10,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pawalo-Driver  "),
+        elevation: 0,
+        title: Text("Pawalo-Driver"),
       ),
       body: Column(
         children: <Widget>[
